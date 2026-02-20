@@ -7,6 +7,7 @@ A full-stack data visualization project leveraging Python, Pandas, and Streamlit
 
 This dashboard provides deep-dive analytics into Formula 1 race data. Unlike simple local scripts, this project was architected to run on a production-ready cloud environment, requiring custom VPC networking and infrastructure configuration.
 
+
 🛠️ Tech Stack
 
 Language: Python
@@ -22,6 +23,7 @@ OS: Ubuntu 22.04 LTS
 Networking: GCP VPC Firewall & Network Tags
 
 
+
 🚀 Cloud Infrastructure & Networking
 
 The highlight of this deployment was overcoming the "Connection Refused" bottleneck by configuring the cloud networking stack from scratch.
@@ -31,11 +33,13 @@ VPC Firewall Policy: Created an ingress rule for tcp:8504.
 
 Diagnostic Tooling: I used ss -tulpn to monitor socket states and verify that the application was correctly bound to the network interface.
 
+
 📊 Dashboard Features
 
 Race Winners
 Championship Standings
 Team Stats
+
 
 📝 Lessons Learned
 
