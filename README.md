@@ -10,11 +10,17 @@ This dashboard provides deep-dive analytics into Formula 1 race data. Unlike sim
 🛠️ Tech Stack
 
 Language: Python
+
 Data Processing: Pandas, NumPy
+
 Frontend/UI: Streamlit
+
 Infrastructure: Google Compute Engine (GCE)
+
 OS: Ubuntu 22.04 LTS
+
 Networking: GCP VPC Firewall & Network Tags
+
 
 🚀 Cloud Infrastructure & Networking
 
